@@ -7,7 +7,7 @@ let noth : null = null;
 let undef : undefined = undefined;
 let arr : number[] = [1,2,3,4,5];
 let arr2 : Array<number> = [1,2,3,4,5];
-let response : string | number = "Holiwis";
+let responser : string | number = "Holiwis";
 
 
 type respueta = number | undefined;
