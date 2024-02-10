@@ -1,0 +1,16 @@
+{
+  "name": "typescript-cf",
+  "version": "1.0.0",
+  "description": "Clases de typescirpt en codigo facilito, ejercicios y pruebas, codigo desordenado para hacer muchas pruebas",
+  "main": "index.js",
+  "scripts": {
+    "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
+    "start:enums": "tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
+    "start:interface": "tsc basics/interface.ts --outdir dist/ && node dist/interface.js",
+    "start:customTypes": "tsc basics/customTypes.ts --outdir dist/ && node dist/customTypes.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
